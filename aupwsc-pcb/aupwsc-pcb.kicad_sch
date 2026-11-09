@@ -1,0 +1,90 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "33830858-c4e1-4f4b-96dc-9f2ecedffe36")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 38.1 76.2)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "80ebb288-4d41-44b1-89fe-b364077dcb62")
+		(property "Sheetname" "mcu"
+			(at 38.1 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 38.1 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 50.8 76.2 90)
+			(uuid "b8f9f210-30e9-454e-bd21-b60e49a587b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 50.8 88.9 270)
+			(uuid "170d5e27-fedf-4a25-a2e2-242e68a4b1d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM_IN" input
+			(at 38.1 82.55 180)
+			(uuid "a872bd8f-be7d-4ab8-b87e-106bf189f507")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "aupwsc-pcb"
+				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
