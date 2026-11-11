@@ -2335,16 +2335,214 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "TODO: \nselect oscillator"
-		(exclude_from_sim no)
-		(at 64.262 79.756 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(symbol "local:ASTX-H12-10.000MHZ-T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y1"
+				(at 17.018 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
+			(property "Value" "ASTX-H12-10.000MHZ-T"
+				(at 17.018 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ASTX-H12"
+				(at 36.83 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://abracon.com/Oscillators/ASTX-H12.pdf"
+				(at 36.83 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "10 MHz TCXO HCMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.95"
+				(at 36.83 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "815-ASTXH1210T"
+				(at 36.83 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ASTX-H12-10000MHZ-T?qs=tfZGHB2PWd06z7BT3O31HA%3D%3D"
+				(at 36.83 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "ABRACON"
+				(at 36.83 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ASTX-H12-10.000MHZ-T"
+				(at 36.83 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "ASTX-H12-10.000MHZ-T_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "TRI-STATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "GND/CASE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(uuid "5fe1c30f-22eb-41c1-92fe-506004b1b695")
 	)
 	(junction
 		(at 96.52 120.65)
@@ -2359,6 +2557,12 @@
 		(uuid "10b9cb9a-630d-405e-91f1-5f8ef5d310a8")
 	)
 	(junction
+		(at 31.75 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21476c23-9d47-4919-aef6-90156ac9cdbd")
+	)
+	(junction
 		(at 127 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2371,7 +2575,7 @@
 		(uuid "3215bd4e-c6fe-4043-a5d0-e39eba5d147d")
 	)
 	(junction
-		(at 62.23 118.11)
+		(at 44.45 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4900c04d-8ce2-43d4-b773-f8ebebf8aee1")
@@ -2389,7 +2593,7 @@
 		(uuid "6a23b200-9666-4734-a978-1cfae2998a01")
 	)
 	(junction
-		(at 74.93 111.76)
+		(at 57.15 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b13f64d-4e37-4cb7-a00e-96ba2bc84f65")
@@ -2399,6 +2603,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8df3b2d9-8efd-4907-b54b-16c2d9151782")
+	)
+	(junction
+		(at 26.67 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93e5293f-b10e-4594-b380-0bde24fa7959")
 	)
 	(junction
 		(at 81.28 50.8)
@@ -2443,6 +2653,10 @@
 	(no_connect
 		(at 83.82 99.06)
 		(uuid "075e527f-b53a-4e60-ab7d-1d810cea20f4")
+	)
+	(no_connect
+		(at 74.93 81.28)
+		(uuid "14b1cc4b-1c63-4754-a6bd-6ed4ae088d03")
 	)
 	(no_connect
 		(at 109.22 88.9)
@@ -2590,6 +2804,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 113.03) (xy 68.58 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd9bd3a-cd94-4bf1-aa03-90cc436819a4")
+	)
+	(wire
+		(pts
 			(xy 147.32 110.49) (xy 147.32 118.11)
 		)
 		(stroke
@@ -2620,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 111.76) (xy 81.28 111.76)
+			(xy 55.88 85.09) (xy 63.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2700,6 +2924,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 105.41) (xy 26.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3842071f-53fd-43ae-bc9f-8fe6255511ac")
+	)
+	(wire
+		(pts
 			(xy 142.24 102.87) (xy 147.32 102.87)
 		)
 		(stroke
@@ -2730,7 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 130.81) (xy 81.28 130.81)
+			(xy 53.34 125.73) (xy 62.23 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2780,6 +3014,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 110.49) (xy 26.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4acc1fa2-39f3-4f6f-9654-2a02694d3cc9")
+	)
+	(wire
+		(pts
 			(xy 93.98 63.5) (xy 93.98 50.8)
 		)
 		(stroke
@@ -2790,7 +3034,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 130.81) (xy 62.23 135.89)
+			(xy 43.18 125.73) (xy 43.18 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2820,7 +3064,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 118.11) (xy 62.23 123.19)
+			(xy 44.45 91.44) (xy 44.45 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2840,6 +3084,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 110.49) (xy 74.93 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e249ff7-8e34-48af-b7df-a80776a6550d")
+	)
+	(wire
+		(pts
 			(xy 99.06 63.5) (xy 104.14 63.5)
 		)
 		(stroke
@@ -2850,7 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 118.11) (xy 74.93 118.11)
+			(xy 54.61 91.44) (xy 57.15 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2887,6 +3141,16 @@
 			(type default)
 		)
 		(uuid "64475348-b53e-4519-9b53-9d27c1ec3342")
+	)
+	(wire
+		(pts
+			(xy 26.67 119.38) (xy 26.67 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e55f58-4e56-422d-ba9c-7eee8548d8d0")
 	)
 	(wire
 		(pts
@@ -2950,6 +3214,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 113.03) (xy 68.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75de98a9-0106-4f1c-9e32-5c2437bf92cf")
+	)
+	(wire
+		(pts
 			(xy 109.22 96.52) (xy 118.11 96.52)
 		)
 		(stroke
@@ -2960,7 +3234,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 118.11) (xy 64.77 118.11)
+			(xy 44.45 91.44) (xy 46.99 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2987,6 +3261,16 @@
 			(type default)
 		)
 		(uuid "863bf198-a5dd-47da-a1de-c169aa229c7d")
+	)
+	(wire
+		(pts
+			(xy 34.29 113.03) (xy 31.75 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870fcbd1-41b1-4ddd-b458-dae65dfc7b30")
 	)
 	(wire
 		(pts
@@ -3050,7 +3334,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 111.76) (xy 63.5 111.76)
+			(xy 44.45 85.09) (xy 45.72 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3060,7 +3344,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 111.76) (xy 62.23 118.11)
+			(xy 31.75 110.49) (xy 31.75 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17d2824-5dad-4750-9184-f8a1dc027dc0")
+	)
+	(wire
+		(pts
+			(xy 44.45 85.09) (xy 44.45 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3090,7 +3384,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 130.81) (xy 62.23 130.81)
+			(xy 26.67 110.49) (xy 31.75 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8f731d-2911-4fc5-81d9-7aa6d1818fc5")
+	)
+	(wire
+		(pts
+			(xy 45.72 125.73) (xy 43.18 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3147,6 +3451,16 @@
 			(type default)
 		)
 		(uuid "c3593e55-0c68-454c-9ef0-fffb4143d8e7")
+	)
+	(wire
+		(pts
+			(xy 34.29 110.49) (xy 31.75 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3cbf2c-4219-423b-8bdf-7bf2a34cdfa3")
 	)
 	(wire
 		(pts
@@ -3220,7 +3534,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 118.11) (xy 74.93 111.76)
+			(xy 57.15 91.44) (xy 57.15 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3319,7 +3633,7 @@
 		(uuid "0a1e96d8-50cd-4a95-aa58-b4d611909a6f")
 	)
 	(label "NRST"
-		(at 81.28 111.76 180)
+		(at 63.5 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3339,7 +3653,7 @@
 		(uuid "153b06c5-853e-4a5c-ba11-4453c0c78eb6")
 	)
 	(label "BOOT0"
-		(at 81.28 130.81 180)
+		(at 62.23 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3377,6 +3691,16 @@
 			(justify right bottom)
 		)
 		(uuid "2407859e-21f2-4ec5-b55f-8791f066b810")
+	)
+	(label "GND"
+		(at 68.58 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "247e5569-544e-41a0-ab57-b0b0339f8a09")
 	)
 	(label "BTN0"
 		(at 127 102.87 0)
@@ -3468,6 +3792,16 @@
 		)
 		(uuid "5a7d5aee-9ea6-435a-9082-37f9af928f71")
 	)
+	(label "OSC_IN"
+		(at 74.93 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64c8fa1b-467c-4fc0-aef5-6fed6278dff5")
+	)
 	(label "GND"
 		(at 147.32 118.11 90)
 		(effects
@@ -3479,7 +3813,7 @@
 		(uuid "6818410b-926e-4351-85d9-b11f853d6bbb")
 	)
 	(label "GND"
-		(at 62.23 135.89 90)
+		(at 43.18 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3528,6 +3862,16 @@
 		)
 		(uuid "9d70afec-e535-4223-9332-ea66575fad09")
 	)
+	(label "GND"
+		(at 26.67 123.19 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f21db3a-1a11-41af-873c-d7f779aac711")
+	)
 	(label "LED1"
 		(at 165.1 97.79 270)
 		(effects
@@ -3567,6 +3911,16 @@
 			(justify left bottom)
 		)
 		(uuid "b87465fc-6042-4e8e-acaa-f202347929a0")
+	)
+	(label "3V3"
+		(at 26.67 105.41 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf239302-6a4f-46dd-8c3d-54c78dbfe55f")
 	)
 	(label "3V3"
 		(at 55.88 45.72 270)
@@ -3629,7 +3983,7 @@
 		(uuid "e1adfd27-8724-4fc7-971e-d56248f63f48")
 	)
 	(label "GND"
-		(at 62.23 123.19 90)
+		(at 44.45 96.52 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3897,6 +4251,154 @@
 		)
 	)
 	(symbol
+		(lib_id "local:ASTX-H12-10.000MHZ-T")
+		(at 34.29 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "112034df-fbf6-467a-a33d-9b055b460eb2")
+		(property "Reference" "Y1"
+			(at 51.308 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ASTX-H12-10.000MHZ-T"
+			(at 51.308 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ASTX-H12"
+			(at 71.12 205.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/Oscillators/ASTX-H12.pdf"
+			(at 71.12 305.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "10 MHz TCXO HCMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"
+			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.95"
+			(at 71.12 505.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "815-ASTXH1210T"
+			(at 71.12 605.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ASTX-H12-10000MHZ-T?qs=tfZGHB2PWd06z7BT3O31HA%3D%3D"
+			(at 71.12 705.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "ABRACON"
+			(at 71.12 805.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ASTX-H12-10.000MHZ-T"
+			(at 71.12 905.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "03918327-91b0-432c-8088-95a7912023e9")
+		)
+		(pin "2"
+			(uuid "c4b10d96-b0d5-4b98-9021-f925f90c91bb")
+		)
+		(pin "4"
+			(uuid "e802888f-bcc6-4204-805c-45eec19ae7af")
+		)
+		(pin "1"
+			(uuid "a90e17fc-2f28-446a-b39c-75a575241e69")
+		)
+		(instances
+			(project "aupwsc-pcb"
+				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 68.58 55.88 0)
 		(unit 1)
@@ -4151,8 +4653,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 130.81 90)
-		(mirror x)
+		(at 49.53 125.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4162,7 +4663,7 @@
 		(dnp no)
 		(uuid "338faaaa-15eb-4d65-ad59-6aca5f116806")
 		(property "Reference" "R2"
-			(at 68.58 137.16 90)
+			(at 49.53 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4172,7 +4673,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 68.58 134.62 90)
+			(at 49.53 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4182,7 +4683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 129.032 90)
+			(at 49.53 127.508 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4193,7 +4694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 130.81 0)
+			(at 49.53 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4204,7 +4705,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 130.81 0)
+			(at 49.53 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4304,6 +4805,88 @@
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
 					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 26.67 115.57 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6377e909-2d45-4186-b9c5-4df812a0e243")
+		(property "Reference" "C13"
+			(at 22.86 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 22.86 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.7048 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 26.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "039bd40e-9ea2-409b-83a4-38d0c5e4cd0a")
+		)
+		(pin "2"
+			(uuid "d1acf42d-0a08-4557-91de-91a37cb42c67")
+		)
+		(instances
+			(project "aupwsc-pcb"
+				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4656,7 +5239,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 68.58 111.76 0)
+		(at 50.8 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4666,7 +5249,7 @@
 		(dnp no)
 		(uuid "a8e21aca-2b5e-4afb-8386-c1f6903fdf4f")
 		(property "Reference" "SW4"
-			(at 68.58 113.538 0)
+			(at 50.8 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4676,7 +5259,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 68.58 106.68 0)
+			(at 50.8 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4687,7 +5270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 106.68 0)
+			(at 50.8 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,7 +5281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 106.68 0)
+			(at 50.8 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,7 +5292,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 68.58 111.76 0)
+			(at 50.8 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4991,7 +5574,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 118.11 90)
+		(at 50.8 91.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5001,7 +5584,7 @@
 		(dnp no)
 		(uuid "d79ab8b9-7ecf-471c-8a0b-d1b9b198134c")
 		(property "Reference" "C9"
-			(at 68.58 125.73 90)
+			(at 50.8 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5011,7 +5594,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 68.58 123.19 90)
+			(at 50.8 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5021,7 +5604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 117.1448 0)
+			(at 54.61 90.4748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5032,7 +5615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 118.11 0)
+			(at 50.8 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5043,7 +5626,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 68.58 118.11 0)
+			(at 50.8 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
