@@ -2581,6 +2581,12 @@
 		(uuid "4900c04d-8ce2-43d4-b773-f8ebebf8aee1")
 	)
 	(junction
+		(at 160.02 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cb71232-fc60-494a-9518-deec9fea17a6")
+	)
+	(junction
 		(at 147.32 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2633,12 +2639,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d757f014-b0e9-4bd1-b952-d1be995333a0")
-	)
-	(junction
-		(at 160.02 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e16a0f21-86a2-4b6c-a6ff-4e2c9e9d6159")
 	)
 	(junction
 		(at 114.3 50.8)
@@ -2754,23 +2754,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 113.03) (xy 160.02 113.03)
+			(xy 154.94 124.46) (xy 160.02 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "104fe6aa-901b-40b2-8672-c2e68055bced")
-	)
-	(wire
-		(pts
-			(xy 154.94 110.49) (xy 154.94 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12f76663-4fd2-401c-9a67-43a403f058b3")
 	)
 	(wire
 		(pts
@@ -2781,6 +2771,16 @@
 			(type default)
 		)
 		(uuid "162191c2-bb82-45ac-aa77-0c8f58b03531")
+	)
+	(wire
+		(pts
+			(xy 154.94 114.3) (xy 154.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17de760c-9010-42e6-91b9-785d36046909")
 	)
 	(wire
 		(pts
@@ -2911,6 +2911,16 @@
 			(type default)
 		)
 		(uuid "34296e59-438f-46a7-a909-cca56fc15514")
+	)
+	(wire
+		(pts
+			(xy 165.1 114.3) (xy 165.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366185cb-2e65-4d2f-8477-dfc81234372f")
 	)
 	(wire
 		(pts
@@ -3274,16 +3284,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 113.03) (xy 160.02 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87858d12-a3ed-42de-a7e8-3c659f410684")
-	)
-	(wire
-		(pts
 			(xy 140.97 78.74) (xy 149.86 78.74)
 		)
 		(stroke
@@ -3374,6 +3374,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 124.46) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75e1480-b6fd-4b6c-81a8-3aaacba08910")
+	)
+	(wire
+		(pts
 			(xy 68.58 50.8) (xy 55.88 50.8)
 		)
 		(stroke
@@ -3401,6 +3411,26 @@
 			(type default)
 		)
 		(uuid "b2611235-10d3-45d5-baaa-897effa24fcc")
+	)
+	(wire
+		(pts
+			(xy 154.94 124.46) (xy 154.94 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b445cdb8-b16f-4e5a-8d02-c4c5ee78290f")
+	)
+	(wire
+		(pts
+			(xy 165.1 124.46) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e2af49-128f-45be-a502-12ed3451c0a4")
 	)
 	(wire
 		(pts
@@ -3484,16 +3514,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 110.49) (xy 165.1 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc42ec60-ccd3-454d-8cf4-5dcfb59e80eb")
-	)
-	(wire
-		(pts
 			(xy 140.97 86.36) (xy 149.86 86.36)
 		)
 		(stroke
@@ -3564,6 +3584,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 124.46) (xy 160.02 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9549e1d-4a68-4116-86dc-11820f80f70d")
+	)
+	(wire
+		(pts
 			(xy 114.3 50.8) (xy 114.3 52.07)
 		)
 		(stroke
@@ -3571,16 +3601,6 @@
 			(type default)
 		)
 		(uuid "e9949e2d-66ad-4976-b3c0-6116a99337ff")
-	)
-	(wire
-		(pts
-			(xy 160.02 113.03) (xy 165.1 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec12d236-fbba-411f-87cb-34ab3e427ef6")
 	)
 	(wire
 		(pts
@@ -3673,7 +3693,7 @@
 		(uuid "1abe6b81-5f43-4f2d-986d-91f986756537")
 	)
 	(label "GND"
-		(at 160.02 118.11 90)
+		(at 160.02 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4087,7 +4107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ae7eb51-f8eb-4e50-941c-b748bc689854")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 158.75 106.9974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4109,7 +4129,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 154.94 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4162,7 +4182,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4180,7 +4200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c6672ce-eeec-433c-b4bd-c6899d060c53")
-		(property "Reference" "C11"
+		(property "Reference" "C4"
 			(at 118.11 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4202,7 +4222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 115.2652 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4244,7 +4264,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "C11")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4282,7 +4302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ASTX-H12"
+		(property "Footprint" "local:ASTX-H12"
 			(at 71.12 205.41 0)
 			(hide yes)
 			(show_name no)
@@ -4410,7 +4430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b01a52b-5946-44ac-ac10-05c3855a543f")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 72.39 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4432,7 +4452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 69.5452 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4474,7 +4494,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "C8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4493,7 +4513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c144de5-bcca-49d8-a40a-9059ec8ed3d7")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 156.21 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4515,7 +4535,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 154.94 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4563,7 +4583,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4581,7 +4601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c3fd394-88f0-493e-8008-58a1dda38c2d")
-		(property "Reference" "C10"
+		(property "Reference" "C3"
 			(at 85.09 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4603,7 +4623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 82.2452 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4645,7 +4665,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "C10")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4662,7 +4682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "338faaaa-15eb-4d65-ad59-6aca5f116806")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 49.53 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4682,7 +4702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 49.53 127.508 90)
 			(hide yes)
 			(show_name no)
@@ -4724,7 +4744,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4741,7 +4761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "501e370e-85bd-4ebc-98dd-f363b28926ce")
-		(property "Reference" "SW5"
+		(property "Reference" "SW2"
 			(at 137.16 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4762,7 +4782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 137.16 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4804,7 +4824,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "SW5")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -4822,7 +4842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6377e909-2d45-4186-b9c5-4df812a0e243")
-		(property "Reference" "C13"
+		(property "Reference" "C7"
 			(at 22.86 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4833,7 +4853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "100n"
 			(at 22.86 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4844,7 +4864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 25.7048 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4886,7 +4906,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "C13")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4905,7 +4925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "685b8954-0d56-4b17-b8b8-d96836f77aea")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 156.21 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4927,7 +4947,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 154.94 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4978,7 +4998,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4996,7 +5016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bf799b6-7d79-487a-a8b5-50f87eee73b5")
-		(property "Reference" "FB2"
+		(property "Reference" "FB1"
 			(at 99.0092 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5016,7 +5036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 99.06 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -5058,7 +5078,89 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "FB2")
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b56a66f-62f9-432e-8af1-83b6188b2194")
+		(property "Reference" "R1"
+			(at 157.48 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 157.48 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 153.162 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fd62d2e-a9c9-45fc-9291-d53a3a44d4ed")
+		)
+		(pin "2"
+			(uuid "e3796789-b475-407b-910c-b71ec85cbd79")
+		)
+		(instances
+			(project "aupwsc-pcb"
+				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5076,7 +5178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9beee06a-92fa-4836-ad5d-db7e6e44eb41")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 101.2033 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5231,7 +5333,89 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "U2")
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a77faae6-bf14-4c61-b99a-46f07d4bf7a5")
+		(property "Reference" "R2"
+			(at 167.64 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 167.64 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 163.322 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9120d18-0007-475f-b11b-9069f9024d67")
+		)
+		(pin "2"
+			(uuid "42d14144-6913-4e8e-b135-14cb80d39d51")
+		)
+		(instances
+			(project "aupwsc-pcb"
+				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5248,7 +5432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8e21aca-2b5e-4afb-8386-c1f6903fdf4f")
-		(property "Reference" "SW4"
+		(property "Reference" "SW1"
 			(at 50.8 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5269,7 +5453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 50.8 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5311,7 +5495,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "SW4")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5329,7 +5513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c32ac091-f0a3-4a3b-b1cf-e77b8fe2f826")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 168.91 106.9974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5351,7 +5535,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5404,7 +5588,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5421,7 +5605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6076802-2fdb-4171-bd0d-6228389f9df9")
-		(property "Reference" "SW6"
+		(property "Reference" "SW3"
 			(at 137.16 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5442,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 137.16 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5484,7 +5668,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "SW6")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5502,7 +5686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c92219bd-ff85-4a19-a435-63496ec881ae")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 59.69 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5524,7 +5708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 56.8452 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5566,7 +5750,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "C7")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5583,7 +5767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d79ab8b9-7ecf-471c-8a0b-d1b9b198134c")
-		(property "Reference" "C9"
+		(property "Reference" "C6"
 			(at 50.8 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5603,7 +5787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 54.61 90.4748 0)
 			(hide yes)
 			(show_name no)
@@ -5645,7 +5829,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "C9")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5663,7 +5847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edfb0988-c4a9-4227-9d31-de73954a66d2")
-		(property "Reference" "C12"
+		(property "Reference" "C5"
 			(at 130.81 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5674,7 +5858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 130.81 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5685,7 +5869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 127.9652 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5727,7 +5911,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/80ebb288-4d41-44b1-89fe-b364077dcb62"
-					(reference "C12")
+					(reference "C5")
 					(unit 1)
 				)
 			)
