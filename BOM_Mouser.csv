@@ -1,0 +1,11 @@
+﻿Oznaczenia;Ilość na 1 PCB;Element i parametry;Obudowa;Producent;MPN ze schematu;Symbol do zamówienia;Dostawca;Link do produktu
+J11;1;Gniazdo SMA 50 Ω, kątowe do PCB;THT, Amphenol 132203-12;Amphenol RF;132203-12;523-132203-12;Mouser;https://no.mouser.com/en/ProductDetail/Amphenol-RF/132203-12?qs=Z6N%252BYuApFLXUl6HDEuR7dg%3D%3D
+U1;1;Mikrokontroler STM32G431, 32 kB Flash;LQFP-32, 7 x 7 mm, raster 0,8 mm;STMicroelectronics;STM32G431K6T6;511-STM32G431K6T6;Mouser;https://eu.mouser.com/en/ProductDetail/STMicroelectronics/STM32G431K6T6?qs=sPbYRqrBIVm9zNbIq2fwdA%3D%3D
+U10, U11;2;Wzmacniacz RF ADL5535, wzmocnienie 16 dB;SOT-89-3;Analog Devices;ADL5535ARKZ-R7;584-ADL5535ARKZ-R7;Mouser;https://eu.mouser.com/en/ProductDetail/Analog-Devices/ADL5535ARKZ-R7?qs=BpaRKvA4VqFHQ7h78BfxYQ%3D%3D
+U12;1;Komparator LTC6752-2, osobne zasilanie wyjścia;MSOP-8, 3 x 3 mm, raster 0,65 mm;Analog Devices;LTC6752HMS8-2#PBF;LTC6752HMS8-2#PBF;Mouser;https://eu.mouser.com/en/ProductDetail/Analog-Devices/LTC6752HMS8-2PBF?qs=hVkxg5c3xu8xZhHC81LWDA%3D%3D
+U13;1;Przerzutnik D / dzielnik przez 2;VSSOP-8 DCU, 2,3 x 2 mm;Texas Instruments;SN74LVC1G74DCUT;SN74LVC1G74DCUT;TME;https://eu.mouser.com/en/ProductDetail/Texas-Instruments/SN74LVC1G74DCUT?qs=DS7Z8uEdLNzZdFEKPtFB1A%3D%3D
+U14;1;Stabilizator LDO 3,3 V / 500 mA;SOT-23-5 DBV;Texas Instruments;TLV75533PDBVR;TLV75533PDBVR;TME;https://www.tme.eu/pl/details/tlv75533pdbvr/stabilizatory-napiecia-nieregulowane-ldo/texas-instruments/
+Y1;1;Generator TCXO 10 MHz, HCMOS, 3,3 V;SMD 4 pady, 2,5 x 2,0 mm;Abracon;ASTX-H12-10.000MHZ-T;815-ASTXH1210T;Mouser;https://eu.mouser.com/en/ProductDetail/ABRACON/ASTX-H12-10.000MHZ-T?qs=tfZGHB2PWd06z7BT3O31HA%3D%3D
+;;;;;;;;
+;;;;;;;;
+Problem z  U14 (TLV75533PDBVR). Potencjalny zamiennik to AP2112K-3.3TRG1;;;;;;;;

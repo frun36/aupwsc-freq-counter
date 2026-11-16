@@ -243,7 +243,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "C"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -665,7 +665,7 @@
         "uuid": "286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3"
       }
     ],
-    "used_designators": "#PWR1-24,C1-12,D1-4,FB1-2,J1-4,R1-3,SW1-6,U1-2,Y1",
+    "used_designators": "#PWR1-24,#PWR917-935,#PWR2012-2015,C1-13,D1-4,FB1-2,J1-4,R1-3,SW1-6,U1-2,Y1",
     "variants": []
   },
   "sheets": [
@@ -676,6 +676,10 @@
     [
       "80ebb288-4d41-44b1-89fe-b364077dcb62",
       "mcu"
+    ],
+    [
+      "99a816e2-5b82-4f18-bddd-ecc68ad00210",
+      "RF front end and power"
     ]
   ],
   "text_variables": {},
