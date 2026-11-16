@@ -1,0 +1,541 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-16T19:17:50",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "aupwsc-pcb.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Naruszenie prześwitu ( prześwit 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Pole lutownicze 2 [/RF front end and power/DIV_FB] z U13 na F.Cu",
+                    "pos": {
+                        "x": 96.6,
+                        "y": 50.5
+                    },
+                    "uuid": "03df51a6-a2b3-45d1-a928-6d8b8b42d56a"
+                },
+                {
+                    "description": "Pole lutownicze 1 [/RF front end and power/COMP_CLK] z U13 na F.Cu",
+                    "pos": {
+                        "x": 96.6,
+                        "y": 50.0
+                    },
+                    "uuid": "12852759-b28a-4cbe-8b1f-22ecc8223e8f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Naruszenie prześwitu ( prześwit 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Pole lutownicze 4 [GND] z U13 na F.Cu",
+                    "pos": {
+                        "x": 96.6,
+                        "y": 51.5
+                    },
+                    "uuid": "4ae42fa7-621b-4a12-bec8-5c19c406cbea"
+                },
+                {
+                    "description": "Pole lutownicze 3 [/RF front end and power/DIV_FB] z U13 na F.Cu",
+                    "pos": {
+                        "x": 96.6,
+                        "y": 51.0
+                    },
+                    "uuid": "a40dd5e4-36c5-4c48-a89c-7e86cc922fc5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Naruszenie prześwitu ( prześwit 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Pole lutownicze 5 [/RF front end and power/DIV_Q] z U13 na F.Cu",
+                    "pos": {
+                        "x": 99.4,
+                        "y": 51.5
+                    },
+                    "uuid": "2d10529f-7660-4673-8838-c8e9622968be"
+                },
+                {
+                    "description": "Pole lutownicze 6 [/RF front end and power/3V3] z U13 na F.Cu",
+                    "pos": {
+                        "x": 99.4,
+                        "y": 51.0
+                    },
+                    "uuid": "9c432d87-1502-4190-b4bd-dc8e7ea45683"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/VCCA] na F.Cu, długość 0,2564 mm",
+                    "pos": {
+                        "x": 81.9091,
+                        "y": 42.69
+                    },
+                    "uuid": "4a28b9ac-a78a-48ad-a16a-336f9b1975fa"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/VCCA] na F.Cu, długość 0,2052 mm",
+                    "pos": {
+                        "x": 81.6527,
+                        "y": 42.69
+                    },
+                    "uuid": "b1ce5a8b-be59-49c1-b81d-c0f32de9ea1a"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/NRST] na B.Cu, długość 1,2973 mm",
+                    "pos": {
+                        "x": 82.2784,
+                        "y": 65.6507
+                    },
+                    "uuid": "42cc5b10-c50b-4279-9fa9-6ba7f3bfc28d"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/NRST] na B.Cu, długość 0,3526 mm",
+                    "pos": {
+                        "x": 83.5757,
+                        "y": 65.6507
+                    },
+                    "uuid": "55cc1980-23b3-4a5e-83fb-cd636b3ed095"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/3V3] na F.Cu, długość 0,2831 mm",
+                    "pos": {
+                        "x": 93.4013,
+                        "y": 49.5169
+                    },
+                    "uuid": "9b196abc-27ff-48fb-981c-cbc4d730e43a"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/3V3] na F.Cu, długość 0,0247 mm",
+                    "pos": {
+                        "x": 93.1182,
+                        "y": 49.5169
+                    },
+                    "uuid": "e818ce73-8e57-4ee2-bf44-7237ec6fcd74"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/3V3] na B.Cu, długość 0,1746 mm",
+                    "pos": {
+                        "x": 91.1216,
+                        "y": 62.8522
+                    },
+                    "uuid": "0a7a54f2-1df2-4c1c-80ab-e7b4e7ff1013"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/3V3] na B.Cu, długość 4,1869 mm",
+                    "pos": {
+                        "x": 88.161,
+                        "y": 65.8128
+                    },
+                    "uuid": "3bb758d6-cc1b-4cf5-9579-69de8a7251f0"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/3V3] na B.Cu, długość 1,4667 mm",
+                    "pos": {
+                        "x": 99.5127,
+                        "y": 67.1944
+                    },
+                    "uuid": "3ef32e1a-fc95-4767-861a-02a2f99c81b9"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/3V3] na B.Cu, długość 1,0147 mm",
+                    "pos": {
+                        "x": 99.5127,
+                        "y": 68.6611
+                    },
+                    "uuid": "78850151-dae9-4f32-a96b-b13cfe26cf15"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/+5V_PROT] na F.Cu, długość 0,4938 mm",
+                    "pos": {
+                        "x": 62.5133,
+                        "y": 68.6008
+                    },
+                    "uuid": "808aef6e-aa34-4c53-834e-d683936ef8aa"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/+5V_PROT] na F.Cu, długość 1,1041 mm",
+                    "pos": {
+                        "x": 61.4092,
+                        "y": 68.6008
+                    },
+                    "uuid": "cad89ab0-b98c-4944-bdd8-b96e9093592e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/VREF] na F.Cu, długość 0,2113 mm",
+                    "pos": {
+                        "x": 87.0369,
+                        "y": 50.7994
+                    },
+                    "uuid": "452af29c-e1a3-4ac7-8ebd-c41f613cae15"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/VREF] na F.Cu, długość 1,9253 mm",
+                    "pos": {
+                        "x": 88.9622,
+                        "y": 50.7994
+                    },
+                    "uuid": "5c6a3ebf-39cf-41a9-a72d-ac5cab0a2f06"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/DIV_FB] na F.Cu, długość 1,5000 mm",
+                    "pos": {
+                        "x": 95.1,
+                        "y": 51.0
+                    },
+                    "uuid": "061e4365-50b5-42fe-9ca4-19b51e281e81"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/DIV_FB] na F.Cu, długość 1,5000 mm",
+                    "pos": {
+                        "x": 96.6,
+                        "y": 50.5
+                    },
+                    "uuid": "23aa6285-0671-4423-a32e-9902a956f658"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/RF front end and power/DIV_FB] na F.Cu, długość 0,5000 mm",
+                    "pos": {
+                        "x": 95.1,
+                        "y": 50.5
+                    },
+                    "uuid": "6ad4f965-89dd-4c5b-add8-397d72ed2e2c"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/UART_RX] na B.Cu, długość 0,0232 mm",
+                    "pos": {
+                        "x": 91.2653,
+                        "y": 68.7421
+                    },
+                    "uuid": "7e727ab0-434f-4c9e-ae85-cfc21e208db9"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/UART_RX] na B.Cu, długość 1,9037 mm",
+                    "pos": {
+                        "x": 89.9192,
+                        "y": 67.396
+                    },
+                    "uuid": "ef9acb66-9865-4ee3-986e-0d537592a43f"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/UART_TX] na B.Cu, długość 2,8380 mm",
+                    "pos": {
+                        "x": 95.2623,
+                        "y": 64.5493
+                    },
+                    "uuid": "000f3c67-b94b-45b0-8132-884943f6c7f5"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/UART_TX] na B.Cu, długość 0,3526 mm",
+                    "pos": {
+                        "x": 92.4243,
+                        "y": 64.5493
+                    },
+                    "uuid": "d4801d71-a7e2-4092-a62f-c1ead8c5c8a1"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/SWCLK] na B.Cu, długość 0,3526 mm",
+                    "pos": {
+                        "x": 92.4243,
+                        "y": 68.0507
+                    },
+                    "uuid": "71fff636-267c-4cb4-83d4-28ec113cfa5d"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/SWCLK] na B.Cu, długość 1,4005 mm",
+                    "pos": {
+                        "x": 93.8248,
+                        "y": 68.0507
+                    },
+                    "uuid": "e11d9072-aaa9-4f13-b30b-539f177711b8"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/SWDIO] na B.Cu, długość 0,5320 mm",
+                    "pos": {
+                        "x": 93.586,
+                        "y": 66.8744
+                    },
+                    "uuid": "28e296e3-cb13-4858-9a63-0497653caf41"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/SWDIO] na B.Cu, długość 0,5322 mm",
+                    "pos": {
+                        "x": 94.7318,
+                        "y": 67.2507
+                    },
+                    "uuid": "2ba54be3-2715-4f61-8040-283e869b4b68"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/SWDIO] na B.Cu, długość 0,7695 mm",
+                    "pos": {
+                        "x": 94.3555,
+                        "y": 66.8744
+                    },
+                    "uuid": "6e0dde06-df3b-437b-bd06-cf1fbf2e41e6"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/SWDIO] na B.Cu, długość 0,3526 mm",
+                    "pos": {
+                        "x": 92.4243,
+                        "y": 67.2507
+                    },
+                    "uuid": "be8ed56d-9c97-4d9c-aed2-e8d01533db3e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/SWDIO] na B.Cu, długość 0,0001 mm",
+                    "pos": {
+                        "x": 93.2098,
+                        "y": 67.2506
+                    },
+                    "uuid": "dddc119e-352b-4470-8381-22a84787ae3c"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Szerokość ścieżki (ograniczenia w konfiguracji płytki min. szerokość 0,2000 mm; obecnie 0,1500 mm)",
+            "items": [
+                {
+                    "description": "Ścieżka [/mcu/SWDIO] na B.Cu, długość 0,7855 mm",
+                    "pos": {
+                        "x": 93.2098,
+                        "y": 67.2507
+                    },
+                    "uuid": "fdfdd536-3582-496a-8e75-4aa8cfa1a3e6"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        }
+    ]
+}

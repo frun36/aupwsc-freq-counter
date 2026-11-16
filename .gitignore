@@ -1,0 +1,13 @@
+# KiCad local UI state and backups
+*.kicad_prl
+*.lck
+~*.lck
+*-backups/
+_autosave-*
+*.bak
+# Reproducible intermediate manufacturing output
+build/
+__pycache__/
+
+# Local editor history
+**/.history/
