@@ -2939,7 +2939,7 @@
 		(uuid "26ed9b7b-1e4e-56ec-84c8-3eece09e0ad9")
 	)
 	(junction
-		(at 284.48 67.31)
+		(at 284.48 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28d91217-c5b6-473a-9c54-d30e3cab29df")
@@ -2951,7 +2951,7 @@
 		(uuid "29bff765-b2d1-515a-91b0-62065cf4cf1d")
 	)
 	(junction
-		(at 292.1 67.31)
+		(at 292.1 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3af95f5d-874d-4748-9a7a-cc851ac43ce2")
@@ -2999,7 +2999,7 @@
 		(uuid "544deb25-3bb5-5e9d-b30e-099477e205bc")
 	)
 	(junction
-		(at 231.14 76.2)
+		(at 231.14 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "564aa165-72c6-48cb-b769-3b77fc1f1e76")
@@ -3035,7 +3035,7 @@
 		(uuid "7d3cfaad-cc67-5bb1-acab-51d1dcebd7f9")
 	)
 	(junction
-		(at 297.18 67.31)
+		(at 297.18 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83d5d9b0-5c1d-4b2b-950f-08a7f4d3e30a")
@@ -3053,13 +3053,13 @@
 		(uuid "93878e3b-04a8-5fbc-bab6-e19b84cf94f3")
 	)
 	(junction
-		(at 275.59 67.31)
+		(at 275.59 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99d30719-2c05-5c0c-b241-7e195d0f355a")
 	)
 	(junction
-		(at 204.47 76.2)
+		(at 204.47 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2ef23e7-5594-4567-9824-e0b8cbad67c6")
@@ -3077,7 +3077,7 @@
 		(uuid "b9a103b0-4c49-59f1-8a1b-12bd1e139574")
 	)
 	(junction
-		(at 341.63 67.31)
+		(at 341.63 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1451728-2230-4c47-8dc3-2a399c95b0a5")
@@ -3089,7 +3089,7 @@
 		(uuid "c3d50416-d5b5-5b7e-8a3d-90b30c30ca04")
 	)
 	(junction
-		(at 302.26 67.31)
+		(at 302.26 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c58c5f75-4de7-47ae-844e-6cee1930b4d8")
@@ -3107,19 +3107,19 @@
 		(uuid "c7c2edcd-8fb9-497a-897a-8015af450bf3")
 	)
 	(junction
-		(at 311.15 67.31)
+		(at 311.15 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e17b663c-96c4-4c95-9513-091bdd8b656e")
 	)
 	(junction
-		(at 335.28 67.31)
+		(at 335.28 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e221b884-da47-4838-9d63-4980fa41b627")
 	)
 	(junction
-		(at 215.9 76.2)
+		(at 215.9 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbc69cff-b9b7-4aa1-a833-2257fd04cdb4")
@@ -3178,17 +3178,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 76.2) (xy 215.9 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04be987a-144b-4e48-ac49-852143dfaa9e")
-	)
-	(wire
-		(pts
-			(xy 341.63 67.31) (xy 341.63 71.12)
+			(xy 341.63 69.85) (xy 341.63 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3208,7 +3198,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 85.09) (xy 246.38 87.63)
+			(xy 246.38 82.55) (xy 246.38 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3258,13 +3248,23 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 78.74) (xy 350.52 82.55)
+			(xy 350.52 82.55) (xy 350.52 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1231e9c2-aca7-573e-a786-18d11bed0e81")
+	)
+	(wire
+		(pts
+			(xy 204.47 71.12) (xy 204.47 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130820e3-d92b-4733-9a1b-32e3734341ac")
 	)
 	(wire
 		(pts
@@ -3278,7 +3278,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 67.31) (xy 297.18 63.5)
+			(xy 297.18 69.85) (xy 297.18 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3298,7 +3298,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 78.74) (xy 302.26 82.55)
+			(xy 302.26 82.55) (xy 302.26 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3348,7 +3348,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 67.31) (xy 292.1 92.71)
+			(xy 292.1 69.85) (xy 292.1 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3358,7 +3358,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 67.31) (xy 204.47 76.2)
+			(xy 204.47 62.23) (xy 204.47 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3368,7 +3368,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 80.01) (xy 275.59 82.55)
+			(xy 275.59 82.55) (xy 275.59 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3388,7 +3388,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 85.09) (xy 204.47 100.33)
+			(xy 204.47 82.55) (xy 204.47 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3398,7 +3398,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 78.74) (xy 341.63 82.55)
+			(xy 341.63 82.55) (xy 341.63 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3448,7 +3448,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 63.5) (xy 292.1 67.31)
+			(xy 292.1 66.04) (xy 292.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3458,7 +3458,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 67.31) (xy 335.28 64.77)
+			(xy 335.28 69.85) (xy 335.28 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3478,7 +3478,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 67.31) (xy 341.63 67.31)
+			(xy 335.28 69.85) (xy 341.63 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3508,7 +3508,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 85.09) (xy 231.14 87.63)
+			(xy 231.14 82.55) (xy 231.14 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3588,7 +3588,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 80.01) (xy 320.04 82.55)
+			(xy 320.04 82.55) (xy 320.04 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3678,7 +3678,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 85.09) (xy 215.9 87.63)
+			(xy 215.9 82.55) (xy 215.9 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3738,7 +3738,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 67.31) (xy 350.52 71.12)
+			(xy 350.52 69.85) (xy 350.52 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3798,7 +3798,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 67.31) (xy 266.7 72.39)
+			(xy 266.7 69.85) (xy 266.7 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3808,7 +3808,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 76.2) (xy 215.9 76.2)
+			(xy 204.47 71.12) (xy 215.9 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3848,7 +3848,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 67.31) (xy 284.48 72.39)
+			(xy 284.48 69.85) (xy 284.48 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3868,7 +3868,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 67.31) (xy 292.1 67.31)
+			(xy 284.48 69.85) (xy 292.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3878,7 +3878,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 67.31) (xy 302.26 71.12)
+			(xy 302.26 69.85) (xy 302.26 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3898,7 +3898,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 67.31) (xy 320.04 72.39)
+			(xy 320.04 69.85) (xy 320.04 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3948,7 +3948,17 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 67.31) (xy 350.52 67.31)
+			(xy 215.9 71.12) (xy 215.9 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a0e1d4-f112-4d61-80a5-a2b356dc0cee")
+	)
+	(wire
+		(pts
+			(xy 341.63 69.85) (xy 350.52 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3988,23 +3998,13 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 67.31) (xy 284.48 67.31)
+			(xy 266.7 69.85) (xy 284.48 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "994f133b-d02e-561a-a5d1-a443d80a511f")
-	)
-	(wire
-		(pts
-			(xy 246.38 76.2) (xy 246.38 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a03ec4ff-8b41-4314-aee9-eddf8a9196fc")
 	)
 	(wire
 		(pts
@@ -4018,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 92.71) (xy 297.18 67.31)
+			(xy 297.18 92.71) (xy 297.18 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4098,7 +4098,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 67.31) (xy 311.15 72.39)
+			(xy 311.15 69.85) (xy 311.15 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4108,7 +4108,17 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 80.01) (xy 284.48 82.55)
+			(xy 246.38 71.12) (xy 246.38 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6021bc9-1e69-45f5-ae1d-6222ff0644bc")
+	)
+	(wire
+		(pts
+			(xy 284.48 82.55) (xy 284.48 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4168,16 +4178,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 76.2) (xy 204.47 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf7729a6-5f1b-4062-ad65-79a8987ce393")
-	)
-	(wire
-		(pts
 			(xy 251.46 128.27) (xy 251.46 132.08)
 		)
 		(stroke
@@ -4198,7 +4198,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 80.01) (xy 311.15 82.55)
+			(xy 311.15 82.55) (xy 311.15 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4218,7 +4218,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 67.31) (xy 320.04 67.31)
+			(xy 302.26 69.85) (xy 320.04 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4248,7 +4248,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 67.31) (xy 302.26 67.31)
+			(xy 297.18 69.85) (xy 302.26 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4288,7 +4288,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 80.01) (xy 266.7 82.55)
+			(xy 266.7 82.55) (xy 266.7 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4298,7 +4298,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 76.2) (xy 231.14 77.47)
+			(xy 231.14 71.12) (xy 231.14 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4358,7 +4358,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 76.2) (xy 231.14 76.2)
+			(xy 215.9 71.12) (xy 231.14 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4368,7 +4368,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 67.31) (xy 275.59 72.39)
+			(xy 275.59 69.85) (xy 275.59 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4398,7 +4398,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 92.71) (xy 335.28 67.31)
+			(xy 335.28 92.71) (xy 335.28 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4438,7 +4438,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 76.2) (xy 246.38 76.2)
+			(xy 231.14 71.12) (xy 246.38 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4607,7 +4607,7 @@
 		(uuid "570e932c-81bb-5a76-be04-63bcd675f9f3")
 	)
 	(label "3V3"
-		(at 297.18 63.5 0)
+		(at 297.18 66.04 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4617,7 +4617,7 @@
 		(uuid "685dd02b-7690-5beb-bfc8-ee1ab0de7fe7")
 	)
 	(label "VCCA"
-		(at 292.1 63.5 0)
+		(at 292.1 66.04 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4677,7 +4677,7 @@
 		(uuid "abc80c3e-14d4-5dc8-aca4-5dd9a040ca25")
 	)
 	(label "VCCA"
-		(at 204.47 67.31 0)
+		(at 204.47 62.23 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4780,7 +4780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0237f083-9735-5275-a107-4eaf88455425")
-		(property "Reference" "#PWR905"
+		(property "Reference" "#PWR0321"
 			(at 156.21 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4839,7 +4839,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR905")
+					(reference "#PWR0321")
 					(unit 1)
 				)
 			)
@@ -4856,7 +4856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0399f56f-1b09-5abf-a87a-60c37dab05c3")
-		(property "Reference" "C16"
+		(property "Reference" "C21"
 			(at 81.28 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4945,7 +4945,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C16")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4953,7 +4953,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 350.52 74.93 0)
+		(at 350.52 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4962,8 +4962,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "091be7ed-016b-5e26-bc0a-b303ed2ff7d3")
-		(property "Reference" "C37"
-			(at 353.06 73.66 0)
+		(property "Reference" "C19"
+			(at 353.06 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4974,7 +4974,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 353.06 76.2 0)
+			(at 353.06 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4985,7 +4985,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 350.52 74.93 0)
+			(at 350.52 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4997,7 +4997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 74.93 0)
+			(at 350.52 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5009,7 +5009,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 350.52 74.93 0)
+			(at 350.52 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5019,7 +5019,7 @@
 			)
 		)
 		(property "MPN" "GRM188R61A105KA61D"
-			(at 350.52 74.93 0)
+			(at 350.52 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5031,7 +5031,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 350.52 74.93 0)
+			(at 350.52 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5051,7 +5051,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C37")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5068,7 +5068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d6ab465-90cf-577c-a810-f2f101d21c3e")
-		(property "Reference" "FB10"
+		(property "Reference" "FB1"
 			(at 101.6 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5157,7 +5157,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "FB10")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -5174,7 +5174,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d9a11d4-25ea-53b8-b3f1-a41390f767af")
-		(property "Reference" "TP12"
+		(property "Reference" "TP2"
 			(at 198.12 232.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5261,7 +5261,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "TP12")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -5278,7 +5278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "102c5a1d-0990-49f7-8274-0b7c0ad6f87e")
-		(property "Reference" "#PWR0928"
+		(property "Reference" "#PWR0314"
 			(at 246.38 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5337,7 +5337,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0928")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -5354,7 +5354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "132d3e65-90e2-4f06-b7f9-9984c876eb15")
-		(property "Reference" "#PWR0925"
+		(property "Reference" "#PWR0311"
 			(at 111.76 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5413,7 +5413,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0925")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -5430,7 +5430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14278c7c-ae40-5958-a5d8-5341559512f8")
-		(property "Reference" "C28"
+		(property "Reference" "C27"
 			(at 269.24 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5519,7 +5519,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C28")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -5527,7 +5527,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 204.47 81.28 0)
+		(at 204.47 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5536,8 +5536,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "146bdbfd-f9e5-5a2f-9b57-7ecb12590c79")
-		(property "Reference" "L14"
-			(at 207.01 80.01 0)
+		(property "Reference" "L2"
+			(at 207.01 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5548,7 +5548,7 @@
 			)
 		)
 		(property "Value" "470n"
-			(at 207.01 82.55 0)
+			(at 207.01 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5559,7 +5559,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 204.47 81.28 0)
+			(at 204.47 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5571,7 +5571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 81.28 0)
+			(at 204.47 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5583,7 +5583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 81.28 0)
+			(at 204.47 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5593,7 +5593,7 @@
 			)
 		)
 		(property "MPN" "LQW18CNR47J00D"
-			(at 204.47 81.28 0)
+			(at 204.47 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5605,7 +5605,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 204.47 81.28 0)
+			(at 204.47 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5625,7 +5625,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "L14")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -5642,7 +5642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1572cb5f-d4be-5be9-aa4e-d1f7cd0b7dd1")
-		(property "Reference" "U14"
+		(property "Reference" "U1"
 			(at 101.6 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5740,7 +5740,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "U14")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5748,7 +5748,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 284.48 76.2 0)
+		(at 284.48 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5757,18 +5757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17d30b31-bd35-54ed-980a-99226c4a932c")
-		(property "Reference" "C32"
-			(at 287.02 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
+		(property "Reference" "C14"
 			(at 287.02 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5779,8 +5768,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "100n"
+			(at 287.02 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 284.48 76.2 0)
+			(at 284.48 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5792,7 +5792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 76.2 0)
+			(at 284.48 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5804,7 +5804,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 284.48 76.2 0)
+			(at 284.48 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5814,7 +5814,7 @@
 			)
 		)
 		(property "MPN" "GRM188R71H104KA93D"
-			(at 284.48 76.2 0)
+			(at 284.48 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5826,7 +5826,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 284.48 76.2 0)
+			(at 284.48 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5846,7 +5846,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C32")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5863,7 +5863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "223e56fd-26f7-5622-a727-7d298c15ab26")
-		(property "Reference" "TP10"
+		(property "Reference" "TP1"
 			(at 160.02 211.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5950,7 +5950,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "TP10")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5967,7 +5967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22ce58f7-67cc-5519-9d5d-440501806904")
-		(property "Reference" "TP11"
+		(property "Reference" "TP3"
 			(at 154.94 255.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6054,7 +6054,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "TP11")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6071,7 +6071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2435d979-ad6d-5676-b88b-dc8d1581e8d8")
-		(property "Reference" "C11"
+		(property "Reference" "C2"
 			(at 121.92 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6160,7 +6160,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C11")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6177,7 +6177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29a88e5c-34a4-5888-86c2-d4c5961a78a3")
-		(property "Reference" "C20"
+		(property "Reference" "C25"
 			(at 111.76 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6266,7 +6266,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C20")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -6274,7 +6274,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 311.15 82.55 0)
+		(at 311.15 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6283,8 +6283,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b402ee5-95f4-5023-b7ed-4ce256f75f1e")
-		(property "Reference" "#PWR908"
-			(at 311.15 82.55 0)
+		(property "Reference" "#PWR0305"
+			(at 311.15 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6296,7 +6296,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 311.15 87.122 0)
+			(at 311.15 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6307,7 +6307,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 311.15 82.55 0)
+			(at 311.15 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6317,7 +6317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 82.55 0)
+			(at 311.15 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6327,7 +6327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 311.15 82.55 0)
+			(at 311.15 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6342,7 +6342,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR908")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -6359,7 +6359,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "322f2814-28b4-5d72-8404-7f59aa91afed")
-		(property "Reference" "TP13"
+		(property "Reference" "TP5"
 			(at 294.64 128.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6445,7 +6445,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "TP13")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -6462,7 +6462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "356a38a2-c416-50ef-b404-27a7c40a9c20")
-		(property "Reference" "#PWR902"
+		(property "Reference" "#PWR0316"
 			(at 60.96 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6521,7 +6521,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR902")
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -6538,7 +6538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37643ac6-f3d7-5218-8b0c-9f589768200e")
-		(property "Reference" "#PWR911"
+		(property "Reference" "#PWR0323"
 			(at 266.7 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6597,7 +6597,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR911")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -6614,7 +6614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b6841ce-9e50-5d0d-a150-ee199148ac48")
-		(property "Reference" "R12"
+		(property "Reference" "R2"
 			(at 276.86 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6703,7 +6703,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "R12")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6720,7 +6720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3cde21bf-d8ca-52ae-a1dc-603214fe93d0")
-		(property "Reference" "C15"
+		(property "Reference" "C20"
 			(at 38.1 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6809,7 +6809,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C15")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6826,7 +6826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42371e85-5310-5e93-9a9b-b51a4a6c777e")
-		(property "Reference" "L12"
+		(property "Reference" "L3"
 			(at 115.316 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6915,7 +6915,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "L12")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -6932,7 +6932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45efda2d-167d-57d9-8ae8-aecfd89b401e")
-		(property "Reference" "#FLG11"
+		(property "Reference" "#FLG0302"
 			(at 116.84 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -6996,7 +6996,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#FLG11")
+					(reference "#FLG0302")
 					(unit 1)
 				)
 			)
@@ -7013,7 +7013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47028fe3-8cab-50db-8036-bfeeb52f0780")
-		(property "Reference" "#PWR901"
+		(property "Reference" "#PWR0315"
 			(at 22.86 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7072,7 +7072,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR901")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -7089,7 +7089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5400c191-fc8e-5dac-9ece-403fc95500de")
-		(property "Reference" "U12"
+		(property "Reference" "U4"
 			(at 299.72 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7196,7 +7196,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "U12")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7213,7 +7213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54a88f81-c0b9-5c4c-967a-58d91ded0b22")
-		(property "Reference" "R11"
+		(property "Reference" "R4"
 			(at 254 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7302,7 +7302,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "R11")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7319,7 +7319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58e707a5-0589-5a4a-9ce4-d0f82b9f709f")
-		(property "Reference" "#PWR903"
+		(property "Reference" "#PWR0317"
 			(at 196.85 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7378,7 +7378,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR903")
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -7395,7 +7395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b4544d7-50e7-52c3-bb63-eb565f47f8ef")
-		(property "Reference" "R10"
+		(property "Reference" "R3"
 			(at 254 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7484,7 +7484,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "R10")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7501,7 +7501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d0b9be4-3a04-5bab-9853-4d357405aaf7")
-		(property "Reference" "U11"
+		(property "Reference" "U3"
 			(at 194.31 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7593,7 +7593,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "U11")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7601,7 +7601,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 246.38 81.28 0)
+		(at 246.38 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7610,8 +7610,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63807682-eb32-5f0a-8247-b2ba86954d74")
-		(property "Reference" "C27"
-			(at 248.92 80.01 0)
+		(property "Reference" "C11"
+			(at 248.92 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7622,7 +7622,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 248.92 82.55 0)
+			(at 248.92 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7633,7 +7633,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 246.38 81.28 0)
+			(at 246.38 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7645,7 +7645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 81.28 0)
+			(at 246.38 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7657,7 +7657,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 246.38 81.28 0)
+			(at 246.38 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7667,7 +7667,7 @@
 			)
 		)
 		(property "MPN" "GRM188R61A105KA61D"
-			(at 246.38 81.28 0)
+			(at 246.38 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7679,7 +7679,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 246.38 81.28 0)
+			(at 246.38 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7699,7 +7699,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C27")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7716,7 +7716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67409fd6-12ed-5ed8-a907-dbfef806e3f2")
-		(property "Reference" "L10"
+		(property "Reference" "L1"
 			(at 71.12 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7805,7 +7805,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "L10")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -7822,7 +7822,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "721ea1b6-6dc4-5f78-b3fd-070d537620e6")
-		(property "Reference" "U10"
+		(property "Reference" "U2"
 			(at 58.42 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7914,7 +7914,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "U10")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7931,7 +7931,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72a638c1-d86c-5339-939e-e52a74882eb3")
-		(property "Reference" "C17"
+		(property "Reference" "C22"
 			(at 135.89 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8020,7 +8020,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C17")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -8028,7 +8028,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 302.26 74.93 0)
+		(at 302.26 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8037,8 +8037,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "731e408e-ffb7-537b-aa25-b44712b51a21")
-		(property "Reference" "C33"
-			(at 304.8 73.66 0)
+		(property "Reference" "C15"
+			(at 304.8 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8049,7 +8049,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 304.8 76.2 0)
+			(at 304.8 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8060,7 +8060,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 302.26 74.93 0)
+			(at 302.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8072,7 +8072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 74.93 0)
+			(at 302.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8084,7 +8084,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 302.26 74.93 0)
+			(at 302.26 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8094,7 +8094,7 @@
 			)
 		)
 		(property "MPN" "GRM21BR71C225KA12L"
-			(at 302.26 74.93 0)
+			(at 302.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8106,7 +8106,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 302.26 74.93 0)
+			(at 302.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8126,7 +8126,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C33")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8143,7 +8143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b05f9fc-ad36-5175-aa42-d932b89107d0")
-		(property "Reference" "L11"
+		(property "Reference" "L4"
 			(at 99.06 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8232,7 +8232,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "L11")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -8249,7 +8249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c19c626-8997-5e91-b94c-32e8a95e54fa")
-		(property "Reference" "R14"
+		(property "Reference" "R1"
 			(at 360.68 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8338,7 +8338,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "R14")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8346,7 +8346,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 266.7 76.2 0)
+		(at 266.7 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8355,18 +8355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c722ca4-f0fc-5478-9a3d-0ca7e9994184")
-		(property "Reference" "C30"
-			(at 269.24 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
+		(property "Reference" "C12"
 			(at 269.24 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8377,8 +8366,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "2.2u"
+			(at 269.24 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 266.7 76.2 0)
+			(at 266.7 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8390,7 +8390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 76.2 0)
+			(at 266.7 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8402,7 +8402,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 76.2 0)
+			(at 266.7 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8412,7 +8412,7 @@
 			)
 		)
 		(property "MPN" "GRM21BR71C225KA12L"
-			(at 266.7 76.2 0)
+			(at 266.7 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8424,7 +8424,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 266.7 76.2 0)
+			(at 266.7 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8444,7 +8444,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C30")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8461,7 +8461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7eb12986-8b49-5b83-bbd7-f492d9f1b4f1")
-		(property "Reference" "C10"
+		(property "Reference" "C1"
 			(at 76.2 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8550,7 +8550,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C10")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8567,7 +8567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7eb6e742-bc52-55a1-9104-a6b0880bf086")
-		(property "Reference" "#PWR915"
+		(property "Reference" "#PWR0329"
 			(at 139.7 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -8626,7 +8626,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR915")
+					(reference "#PWR0329")
 					(unit 1)
 				)
 			)
@@ -8643,7 +8643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f28e6ac-83c5-560b-aa2b-5a72cf0b3bc5")
-		(property "Reference" "C19"
+		(property "Reference" "C24"
 			(at 256.54 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8732,7 +8732,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C19")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -8749,7 +8749,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f8c2fa8-e64d-57e6-be6c-c918db8a8ed1")
-		(property "Reference" "C24"
+		(property "Reference" "C8"
 			(at 114.3 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8838,7 +8838,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C24")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8855,7 +8855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84c40675-890d-54b5-86da-665e3e6012c0")
-		(property "Reference" "U13"
+		(property "Reference" "U5"
 			(at 337.312 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8962,7 +8962,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "U13")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8979,7 +8979,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87155990-961c-5e14-9597-5577a89bf25b")
-		(property "Reference" "#PWR909"
+		(property "Reference" "#PWR0318"
 			(at 294.64 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9038,7 +9038,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR909")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
@@ -9055,7 +9055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "879735cc-155b-51c0-b8a4-141c1f5579cf")
-		(property "Reference" "C12"
+		(property "Reference" "C3"
 			(at 142.24 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9144,7 +9144,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C12")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9161,7 +9161,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "880fa25e-2382-4ec1-b911-ee914e930ccc")
-		(property "Reference" "#PWR0931"
+		(property "Reference" "#PWR0333"
 			(at 129.54 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -9220,7 +9220,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0931")
+					(reference "#PWR0333")
 					(unit 1)
 				)
 			)
@@ -9237,7 +9237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "900d5a68-a97a-52c8-990f-1a35dcea5bef")
-		(property "Reference" "C14"
+		(property "Reference" "C5"
 			(at 132.08 265.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9326,7 +9326,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C14")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9343,7 +9343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98244fd4-599e-4c2f-97b1-7aaca94b3867")
-		(property "Reference" "#PWR0924"
+		(property "Reference" "#PWR0309"
 			(at 81.28 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9402,7 +9402,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0924")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -9419,7 +9419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98df7ed1-bff5-4f8e-b7f8-915c7f9e02a5")
-		(property "Reference" "#PWR0935"
+		(property "Reference" "#PWR0330"
 			(at 185.42 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -9478,7 +9478,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0935")
+					(reference "#PWR0330")
 					(unit 1)
 				)
 			)
@@ -9495,7 +9495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dec7949-71c2-596b-9c35-6237bc5788a6")
-		(property "Reference" "#PWR904"
+		(property "Reference" "#PWR0320"
 			(at 102.87 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9554,7 +9554,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR904")
+					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -9562,7 +9562,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 341.63 82.55 0)
+		(at 341.63 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9571,8 +9571,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0c2903f-82e9-40d8-90db-fb1afc4ba714")
-		(property "Reference" "#PWR0922"
-			(at 341.63 82.55 0)
+		(property "Reference" "#PWR0307"
+			(at 341.63 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9584,7 +9584,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 341.63 87.122 0)
+			(at 341.63 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9595,7 +9595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 341.63 82.55 0)
+			(at 341.63 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9605,7 +9605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 82.55 0)
+			(at 341.63 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9615,7 +9615,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 341.63 82.55 0)
+			(at 341.63 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9630,7 +9630,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0922")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -9638,7 +9638,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 215.9 81.28 0)
+		(at 215.9 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9647,8 +9647,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a37a2575-12d7-5f11-b7fb-492e3231158d")
-		(property "Reference" "C25"
-			(at 221.234 78.994 0)
+		(property "Reference" "C9"
+			(at 221.234 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9659,7 +9659,7 @@
 			)
 		)
 		(property "Value" "68p"
-			(at 221.488 83.566 0)
+			(at 221.488 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9670,7 +9670,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 215.9 81.28 0)
+			(at 215.9 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9682,7 +9682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 81.28 0)
+			(at 215.9 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9694,7 +9694,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 81.28 0)
+			(at 215.9 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9704,7 +9704,7 @@
 			)
 		)
 		(property "MPN" "GCM1885C2A680JA16D"
-			(at 215.9 81.28 0)
+			(at 215.9 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9716,7 +9716,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 215.9 81.28 0)
+			(at 215.9 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9736,7 +9736,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C25")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9744,7 +9744,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 275.59 82.55 0)
+		(at 275.59 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9753,8 +9753,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a57ed69a-c850-41c1-b272-c39f9b4a365d")
-		(property "Reference" "#PWR0918"
-			(at 275.59 82.55 0)
+		(property "Reference" "#PWR0302"
+			(at 275.59 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9766,7 +9766,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 275.59 87.122 0)
+			(at 275.59 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9777,7 +9777,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 82.55 0)
+			(at 275.59 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9787,7 +9787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 82.55 0)
+			(at 275.59 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9797,7 +9797,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 275.59 82.55 0)
+			(at 275.59 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9812,7 +9812,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0918")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -9829,7 +9829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5e3d4b8-d57d-4591-9adb-a9f97f5b7a62")
-		(property "Reference" "#PWR0927"
+		(property "Reference" "#PWR0313"
 			(at 231.14 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9888,7 +9888,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0927")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -9905,7 +9905,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a656cafd-bf30-599a-9d65-a0ab73cc647c")
-		(property "Reference" "#PWR913"
+		(property "Reference" "#PWR0326"
 			(at 33.02 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -9964,7 +9964,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR913")
+					(reference "#PWR0326")
 					(unit 1)
 				)
 			)
@@ -9981,7 +9981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a74c95f9-ed74-4ea7-9c34-9eb37447e90a")
-		(property "Reference" "#PWR0932"
+		(property "Reference" "#PWR0331"
 			(at 73.66 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -10040,7 +10040,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0932")
+					(reference "#PWR0331")
 					(unit 1)
 				)
 			)
@@ -10048,7 +10048,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 320.04 76.2 0)
+		(at 320.04 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10057,18 +10057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "add4cc92-a3d8-5e31-8ef2-8f6c09d72642")
-		(property "Reference" "C35"
-			(at 322.58 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
+		(property "Reference" "C17"
 			(at 322.58 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10079,8 +10068,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "100n"
+			(at 322.58 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 320.04 76.2 0)
+			(at 320.04 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10092,7 +10092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 76.2 0)
+			(at 320.04 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10104,7 +10104,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 320.04 76.2 0)
+			(at 320.04 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10114,7 +10114,7 @@
 			)
 		)
 		(property "MPN" "GRM188R71H104KA93D"
-			(at 320.04 76.2 0)
+			(at 320.04 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10126,7 +10126,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 320.04 76.2 0)
+			(at 320.04 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10146,7 +10146,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C35")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10163,7 +10163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aec0c1c1-ceba-5f1b-a8a2-ff9afc30c2a2")
-		(property "Reference" "C23"
+		(property "Reference" "C7"
 			(at 99.06 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10252,7 +10252,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C23")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10269,7 +10269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b08e7c6c-42a4-597a-9858-d33383876e6b")
-		(property "Reference" "#PWR914"
+		(property "Reference" "#PWR0327"
 			(at 73.66 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10328,7 +10328,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR914")
+					(reference "#PWR0327")
 					(unit 1)
 				)
 			)
@@ -10345,7 +10345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b13f14a9-4c35-50cf-9a71-205430760996")
-		(property "Reference" "D10"
+		(property "Reference" "D1"
 			(at 53.34 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10434,7 +10434,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "D10")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10451,7 +10451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8e60049-578c-55f4-a062-0105a64c14cd")
-		(property "Reference" "#PWR906"
+		(property "Reference" "#PWR0310"
 			(at 96.52 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10510,7 +10510,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR906")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -10518,7 +10518,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 284.48 82.55 0)
+		(at 284.48 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10527,8 +10527,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbd11ea6-dd4a-4ed9-b0ca-43843ef791f7")
-		(property "Reference" "#PWR0919"
-			(at 284.48 82.55 0)
+		(property "Reference" "#PWR0303"
+			(at 284.48 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10540,7 +10540,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 87.122 0)
+			(at 284.48 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10551,7 +10551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 82.55 0)
+			(at 284.48 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10561,7 +10561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 82.55 0)
+			(at 284.48 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10571,7 +10571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 284.48 82.55 0)
+			(at 284.48 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10586,7 +10586,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0919")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -10603,7 +10603,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd83065c-f9f7-5a14-afea-144744f0a30c")
-		(property "Reference" "TP14"
+		(property "Reference" "TP4"
 			(at 378.46 96.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10690,7 +10690,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "TP14")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -10707,7 +10707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0466e18-6ae4-5214-81d5-293123f35c55")
-		(property "Reference" "C21"
+		(property "Reference" "C26"
 			(at 165.1 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10796,7 +10796,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C21")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -10813,7 +10813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0c2ee0e-0104-5220-91e8-9c5e7dc3a276")
-		(property "Reference" "RV10"
+		(property "Reference" "RV1"
 			(at 314.96 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10905,7 +10905,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "RV10")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -10922,7 +10922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c63f9dd4-6d21-4260-97ab-b40d8b4a0332")
-		(property "Reference" "#PWR0934"
+		(property "Reference" "#PWR0328"
 			(at 119.38 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10981,7 +10981,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0934")
+					(reference "#PWR0328")
 					(unit 1)
 				)
 			)
@@ -10998,7 +10998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c680512b-d763-5d8b-8ed7-0133c80367fc")
-		(property "Reference" "#PWR910"
+		(property "Reference" "#PWR0319"
 			(at 335.28 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11057,7 +11057,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR910")
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -11065,7 +11065,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 231.14 81.28 0)
+		(at 231.14 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11074,8 +11074,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7333ea5-5c8a-5b97-ab8c-3ab67fd278f0")
-		(property "Reference" "C26"
-			(at 233.68 80.01 0)
+		(property "Reference" "C10"
+			(at 233.68 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11086,7 +11086,7 @@
 			)
 		)
 		(property "Value" "1.2n"
-			(at 233.68 82.55 0)
+			(at 233.68 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11097,7 +11097,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 231.14 81.28 0)
+			(at 231.14 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11109,7 +11109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 81.28 0)
+			(at 231.14 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11121,7 +11121,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 81.28 0)
+			(at 231.14 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11131,7 +11131,7 @@
 			)
 		)
 		(property "MPN" "C1608C0G2A122J080AA"
-			(at 231.14 81.28 0)
+			(at 231.14 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11143,7 +11143,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 231.14 81.28 0)
+			(at 231.14 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11163,7 +11163,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C26")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -11171,7 +11171,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 82.55 0)
+		(at 266.7 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11180,8 +11180,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c736ae83-2a39-47e5-98ac-773a1bfa20e7")
-		(property "Reference" "#PWR0917"
-			(at 266.7 82.55 0)
+		(property "Reference" "#PWR0301"
+			(at 266.7 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11193,7 +11193,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 87.122 0)
+			(at 266.7 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11204,7 +11204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 82.55 0)
+			(at 266.7 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11214,7 +11214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 82.55 0)
+			(at 266.7 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11224,7 +11224,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 82.55 0)
+			(at 266.7 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11239,7 +11239,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0917")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -11256,7 +11256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c90cefc0-e7ab-540b-89b8-d2f7af18b71f")
-		(property "Reference" "#FLG10"
+		(property "Reference" "#FLG0301"
 			(at 71.12 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -11320,7 +11320,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#FLG10")
+					(reference "#FLG0301")
 					(unit 1)
 				)
 			)
@@ -11337,7 +11337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9edee0d-b170-4479-8abf-f490b9f70a74")
-		(property "Reference" "#PWR0930"
+		(property "Reference" "#PWR0324"
 			(at 281.94 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11396,7 +11396,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0930")
+					(reference "#PWR0324")
 					(unit 1)
 				)
 			)
@@ -11413,7 +11413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbf36a4a-7d61-5044-8647-79ac51248c52")
-		(property "Reference" "C22"
+		(property "Reference" "C6"
 			(at 83.82 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11502,7 +11502,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C22")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11510,7 +11510,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 275.59 76.2 0)
+		(at 275.59 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11519,18 +11519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccc4e543-de41-5804-b84a-b718eb64ed08")
-		(property "Reference" "C31"
-			(at 278.13 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
+		(property "Reference" "C13"
 			(at 278.13 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11541,8 +11530,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "100n"
+			(at 278.13 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 275.59 76.2 0)
+			(at 275.59 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11554,7 +11554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 76.2 0)
+			(at 275.59 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11566,7 +11566,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 275.59 76.2 0)
+			(at 275.59 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11576,7 +11576,7 @@
 			)
 		)
 		(property "MPN" "GRM188R71H104KA93D"
-			(at 275.59 76.2 0)
+			(at 275.59 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11588,7 +11588,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 275.59 76.2 0)
+			(at 275.59 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11608,7 +11608,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C31")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11626,7 +11626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf123da7-b71e-5112-b3d6-45edfdba6cb2")
-		(property "Reference" "J10"
+		(property "Reference" "J1"
 			(at 20.32 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11715,7 +11715,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "J10")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11733,7 +11733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d256d3bf-a8d7-5cdd-9f16-bc278e612a8f")
-		(property "Reference" "J11"
+		(property "Reference" "J2"
 			(at 20.32 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11822,7 +11822,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "J11")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11830,7 +11830,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 341.63 74.93 0)
+		(at 341.63 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11839,8 +11839,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dae600b4-25d2-504b-9da8-8787090d105c")
-		(property "Reference" "C36"
-			(at 344.17 73.66 0)
+		(property "Reference" "C18"
+			(at 344.17 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11851,7 +11851,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 344.17 76.2 0)
+			(at 344.17 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11862,7 +11862,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 341.63 74.93 0)
+			(at 341.63 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11874,7 +11874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 74.93 0)
+			(at 341.63 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11886,7 +11886,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 341.63 74.93 0)
+			(at 341.63 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11896,7 +11896,7 @@
 			)
 		)
 		(property "MPN" "GRM188R71H104KA93D"
-			(at 341.63 74.93 0)
+			(at 341.63 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11908,7 +11908,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 341.63 74.93 0)
+			(at 341.63 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11928,7 +11928,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C36")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -11945,7 +11945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db74d30c-99c9-5d94-b626-3ad830729b17")
-		(property "Reference" "L13"
+		(property "Reference" "L5"
 			(at 152.4 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12034,7 +12034,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "L13")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -12051,7 +12051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc2ee8ec-8871-59c7-945b-8db4ff9c0be3")
-		(property "Reference" "#FLG12"
+		(property "Reference" "#FLG0303"
 			(at 193.04 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -12115,7 +12115,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#FLG12")
+					(reference "#FLG0303")
 					(unit 1)
 				)
 			)
@@ -12132,7 +12132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e026f86d-7167-5175-aeab-ca7f85ab20f7")
-		(property "Reference" "#PWR912"
+		(property "Reference" "#PWR0325"
 			(at 312.42 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12191,7 +12191,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR912")
+					(reference "#PWR0325")
 					(unit 1)
 				)
 			)
@@ -12199,7 +12199,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 311.15 76.2 0)
+		(at 311.15 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12208,18 +12208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1b092ca-170f-5d04-9e85-4bd158420fbf")
-		(property "Reference" "C34"
-			(at 313.69 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.9 0.9)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
+		(property "Reference" "C16"
 			(at 313.69 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12230,8 +12219,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "100n"
+			(at 313.69 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 311.15 76.2 0)
+			(at 311.15 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12243,7 +12243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 76.2 0)
+			(at 311.15 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12255,7 +12255,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 311.15 76.2 0)
+			(at 311.15 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12265,7 +12265,7 @@
 			)
 		)
 		(property "MPN" "GRM188R71H104KA93D"
-			(at 311.15 76.2 0)
+			(at 311.15 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12277,7 +12277,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 311.15 76.2 0)
+			(at 311.15 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12297,7 +12297,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C34")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -12314,7 +12314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e86f5307-d210-5cd3-8664-08e727c92b4d")
-		(property "Reference" "#PWR916"
+		(property "Reference" "#PWR0332"
 			(at 104.14 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -12373,7 +12373,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR916")
+					(reference "#PWR0332")
 					(unit 1)
 				)
 			)
@@ -12390,7 +12390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eacfea7e-3cf2-4ccf-9a3f-bfc691a89b4d")
-		(property "Reference" "#PWR0929"
+		(property "Reference" "#PWR0322"
 			(at 251.46 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -12449,7 +12449,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0929")
+					(reference "#PWR0322")
 					(unit 1)
 				)
 			)
@@ -12457,7 +12457,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 302.26 82.55 0)
+		(at 302.26 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12466,8 +12466,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edc1d68e-b1ce-4860-aacb-dce69346e592")
-		(property "Reference" "#PWR0920"
-			(at 302.26 82.55 0)
+		(property "Reference" "#PWR0304"
+			(at 302.26 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12479,7 +12479,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 302.26 87.122 0)
+			(at 302.26 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12490,7 +12490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 302.26 82.55 0)
+			(at 302.26 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12500,7 +12500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 82.55 0)
+			(at 302.26 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12510,7 +12510,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 302.26 82.55 0)
+			(at 302.26 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12525,7 +12525,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0920")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -12533,7 +12533,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 320.04 82.55 0)
+		(at 320.04 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12542,8 +12542,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0965f6d-8068-4ba1-8bd0-9eb1452cb762")
-		(property "Reference" "#PWR0921"
-			(at 320.04 82.55 0)
+		(property "Reference" "#PWR0306"
+			(at 320.04 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12555,7 +12555,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 320.04 87.122 0)
+			(at 320.04 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12566,7 +12566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 82.55 0)
+			(at 320.04 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12576,7 +12576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 82.55 0)
+			(at 320.04 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12586,7 +12586,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 320.04 82.55 0)
+			(at 320.04 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12601,7 +12601,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0921")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -12618,7 +12618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f363c0f9-1bb5-5c4e-9bf2-30c7ec7ffdfe")
-		(property "Reference" "C13"
+		(property "Reference" "C4"
 			(at 76.2 265.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12707,7 +12707,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C13")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12715,7 +12715,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 350.52 82.55 0)
+		(at 350.52 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12724,8 +12724,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8c1a2ac-e51c-4556-934e-e2996d6874f7")
-		(property "Reference" "#PWR0923"
-			(at 350.52 82.55 0)
+		(property "Reference" "#PWR0308"
+			(at 350.52 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12737,7 +12737,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 350.52 87.122 0)
+			(at 350.52 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12748,7 +12748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 350.52 82.55 0)
+			(at 350.52 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12758,7 +12758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 82.55 0)
+			(at 350.52 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12768,7 +12768,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 350.52 82.55 0)
+			(at 350.52 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12783,7 +12783,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0923")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -12800,7 +12800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f98a20ca-08b1-4f58-89e8-59fbb3b4fb91")
-		(property "Reference" "#PWR0926"
+		(property "Reference" "#PWR0312"
 			(at 215.9 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12859,7 +12859,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "#PWR0926")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -12876,7 +12876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbd4e4f7-3579-581f-a6e1-c1f83b8963a1")
-		(property "Reference" "C18"
+		(property "Reference" "C23"
 			(at 172.72 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12965,7 +12965,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C18")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -12982,7 +12982,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc91912e-3eec-5e92-a7e7-1638f6082494")
-		(property "Reference" "C29"
+		(property "Reference" "C28"
 			(at 284.48 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13071,7 +13071,7 @@
 		(instances
 			(project "aupwsc-pcb"
 				(path "/286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3/99a816e2-5b82-4f18-bddd-ecc68ad00210"
-					(reference "C29")
+					(reference "C28")
 					(unit 1)
 				)
 			)

@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.2,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -146,8 +146,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.15,
+        "min_connection": 0.15,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -159,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -681,7 +681,7 @@
         "uuid": "286d2c61-9a8d-4e4a-b63d-2949e1bcd3a3"
       }
     ],
-    "used_designators": "#PWR1-24,#PWR917-935,#PWR2012-2015,C1-13,D1-4,FB1-2,J1-4,R1-3,SW1-6,U1-2,Y1",
+    "used_designators": "#FLG1,#FLG201,#FLG301-303,#PWR1-41,#PWR201-216,#PWR301-333,#PWR917-935,#PWR2012-2015,C1-35,C201-207,C301-328,D1-4,D201-202,D301-302,FB1-2,FB201,FB301,J1-4,J201-202,J301-302,L1-5,L301-305,R1-7,R201-203,R301-304,RV1,RV301,SW1-6,SW201-203,SW301-303,TP1-5,TP301-305,U1-6,U201,U301-305,Y1,Y201,Y301",
     "variants": []
   },
   "sheets": [
